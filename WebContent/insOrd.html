@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+
+-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- Site title
+   ================================================== -->
+	<title>NuovaOrdinazione</title>
+
+	<!-- Bootstrap CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Animate CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/animate.min.css">
+
+	<!-- Font Icons CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<!-- Main CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Google web font 
+   ================================================== -->	
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+
+
+<!-- Preloader section
+================================================== -->
+<div class="preloader">
+
+	<div class="sk-spinner sk-spinner-pulse"></div>
+
+</div>
+
+
+<!-- Navigation section
+================================================== -->
+<div class="nav-container">
+   <nav class="nav-inner transparent">
+
+      <div class="navbar">
+         <div class="container">
+            <div class="row">
+
+              <div class="brand">
+                <a href="index.html">QUI SI MAGNA</a>
+              </div>
+
+              <div class="navicon">
+                <div class="menu-container">
+
+                  <div class="circle dark inline">
+                    <i style="display: none" class="icon ion-navicon"></i>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+         </div>
+      </div>
+
+   </nav>
+</div>
+
+
+<!-- Header section
+================================================== -->
+
+
+
+<!-- Contact section
+================================================== -->
+<section id="contact">
+   <div class="container">
+      <div class="row">
+		  	
+         <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.3s">
+         	<div class="google_map">
+				
+			</div>
+			 <div style="margin-top: 100px">
+				 <div style="margin-left: 200px">
+			  <br>
+			 <p style="text-align: right" "margin-left: 150px">Qui puoi inserire una nuova ordinazione</p>
+  	
+		  <br>
+			 
+		</div>
+				 </div>
+		</div>
+
+		<div style="margin-bottom: 200px" class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.3s">
+			<h1>Inserisci una nuova ordinazione</h1>
+			<div class="contact-form">
+				<form id="contact-form" method="post" action="./Servlet2">
+					
+					<input name="prenotazione" id="prenotazione" type="text" class="form-control" placeholder="ID prenotazione" required>
+					<p>Scegli il piatto da ordinare:</p>
+					
+					<select style="margin-bottom:20px" name="piatto" id="piatto">
+					
+  						<option name="Mediterraneo" id="Mediterraneo">Mediterraneo</option>
+  						<option name="Misto Vegano" id="Misto Vegano">Misto Vegano</option>
+  						<option name="Misto Vegetariano" id="Misto Vegetariano">Misto Vegetariano</option>
+  						<option name="Insalatina NoLat" id="Insalatina NoLat">Insalatina NoLat</option>
+  						<option name="Misto GlutenFree" id="Misto GlutenFree">Misto GlutenFree</option>
+  						
+  						
+  						<option name="Farfalle al Salmone" id="Farfalle al Salmone">Farfalle al Salmone</option>
+  						<option name="Spaghetti di Zucchine" id="Spaghetti di Zucchine">Spaghetti di Zucchine</option>
+  						<option name="Fusilli con Radicchio" id="Fusilli con Radicchio">Fusilli con Radicchio</option>
+  						<option name="Pasta Zucchine e Gamberetti" id="Pasta Zucchine e Gamberetti">Pasta Zucchine e Gamberetti</option>
+  						<option name="Tagliatelle con Zucchine" id="Tagliatelle con Zucchine">Tagliatelle con Zucchine</option>
+  						
+  						
+  						
+  						<option name="Grigliata Mista" id="Grigliata Mista">Grigliata Mista</option>
+  						<option name="Frittata Piselli e Curry" id="Frittata Piselli e Curry">Frittata Piselli e Curry</option>
+  						<option name="Parmigiana di Melanzane" id="Parmigiana di Melanzane">Parmigiana di Melanzane</option>
+  						<option name="Polpette al limone" id="Polpette al limone">Polpette al limone</option>
+  						<option name="Farinate con Asparagi" id="Farinate con Asparagi">Farinate con Asparagi</option>
+  						
+  					
+  						<option name="Tiramisù" id="Tiramisù">Tiramisù</option>
+  						<option name="Sufflè Vegano" id="Sufflè Vegano">Sufflè Vegano</option>
+  						<option name="Torta di Pere" id="Torta di Pere">Torta di Pere</option>
+  						<option name="Crazy Cake" id="Crazy Cake">Crazy Cake</option>
+  						<option name="Torta di Mele senza glutine" id="Torta di Mele senza glutine">Torta di Mele senza glutine</option>
+  								
+  					
+  						<option name="Margherita" id="Margherita">Margherita</option>
+  						<option name="VeganPizza" id="VeganPizza">VeganPizza</option>
+  						<option name="Vegetariana" id="Vegetariana">Vegetariana</option>
+  						<option name="Olio e Pomodoro" id="Olio e Pomodoro">Olio e Pomodoro</option>
+  						<option name="GlutenFree" id="GlutenFree">GlutenFree</option>
+
+						<option name="Salumi piccolo" id="Salumi piccolo">Salumi piccolo</option>
+  						<option name="Salumi medio" id="Salumi medio">Salumi medio</option>
+  						<option name="Salumi grande" id="Salumi grande">Salumi grande</option>
+  						
+  						
+  						
+  						<option name="Acqua 0.5L" id="Acqua 0.5L">Acqua 0.5L</option>
+  						<option name="Acqua 1L" id="Acqua 1L">Acqua 1L</option>
+						<option name="Coca Cola 1L" id="Coca Cola">Coca Cola 1L</option>
+						<option name="Aranciata 1L" id="Aranciata">Aranciata 1L</option>
+						<option name="Sprite 1L" id="Sprite">Sprite 1L</option>
+						<option name="Chinotto 1L" id="Chinotto">Chinotto 1L</option>
+						
+						<option name="Caffè" id="Caffè">Caffè</option>
+						<option name="Amaro" id="Amaro">Amaro</option>
+						
+  					</select>	
+			
+  					
+  					
+  					
+					<input name="quantita" type="number" class="form-control" placeholder="Quantità" required="required">
+					
+				
+				
+				<!--	<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea> -->
+					<div class="contact-submit">
+						<input type="submit" class="form-control submit" value="REGISTRA ORDINAZIONE">
+					</div>
+				</form>
+			</div>
+		</div>
+
+
+      </div>
+   </div>
+</section>
+
+
+<!-- Footer section
+================================================== -->
+<footer>
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12">
+				<p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2018 QuiSiMagna - Maio Walter</p>
+				
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+<!-- Javascript 
+================================================== -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
